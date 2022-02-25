@@ -2,7 +2,7 @@ name: ydbs
 
 on:
   schedule:
-    - cron: "* 6 * * *"  # JST 15:00
+    - cron: "0 6 * * *"  # JST 15:00
   push:
     branches:
       - main
